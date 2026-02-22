@@ -2,7 +2,6 @@
 #include <Geode/modify/UILayer.hpp>
 
 using namespace geode::prelude;
-using namespace keybinds;
 
 class $modify(MyUILayer, UILayer) {
 	bool init(GJBaseGameLayer* gjbgl) {
