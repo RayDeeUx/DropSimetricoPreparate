@@ -1,17 +1,38 @@
 {
-	"geode": "4.4.0",
+	"geode": "5.0.0-beta.4",
 	"gd": {
 		"win": "2.2074",
 		"mac": "2.2074",
+		"ios": "2.2074",
 		"android": "2.2074"
 	},
 	"id": "raydeeux.dropsimetricopreparate",
 	"name": "DropSimetricoPreparate",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "RayDeeUx",
 	"description": "Make Player 1 and Player 2 jump at the same time!",
-	"dependencies": {
-		"geode.custom-keybinds": ">=1.10.1"
+	"settings": {
+		"both-players-jump": {
+			"name": "Both Players Jump",
+			"description": "Make both players jump.",
+			"type": "keybind",
+			"default": "I",
+			"migrate-from": "raydeeux.dropsimetricopreparate/both-players-jump"
+		},
+		"both-players-left": {
+			"name": "Both Players Left",
+			"description": "Make both players move to the left.",
+			"type": "keybind",
+			"default": "J",
+			"migrate-from": "raydeeux.dropsimetricopreparate/both-players-left"
+		},
+		"both-players-right": {
+			"name": "Both Players Right",
+			"description": "Make both players move to the right.",
+			"type": "keybind",
+			"default": "L",
+			"migrate-from": "raydeeux.dropsimetricopreparate/both-players-right"
+		}
 	},
 	"issues": {
 		"url": "https://discord.com/channels/911701438269386882/1205523212444639292",
